@@ -7,7 +7,8 @@ function App() {
     <div>
       <h1>Profile Cards</h1>
 
-      <ProfileCard
+      <div className="card-container">
+        <ProfileCard
         image={UJlogo}
         name="University of Johannesburg"
         title="Education Partner"
@@ -23,6 +24,7 @@ function App() {
         bio="Passionate about technology and business. Exploring cloud computing, data, and innovative solutions."
         linkedin="https://www.linkedin.com/in/nqobile-twala/"
       />
+      </div>
     </div>
   );
 }

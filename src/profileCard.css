@@ -35,3 +35,9 @@
 .card a:hover {
   text-decoration: underline;
 }
+
+.card-container {
+    display: flex;
+    gap: 15px; /* for the spacing between the cards */
+    margin-top: 20px;
+}
