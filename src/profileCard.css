@@ -19,13 +19,19 @@
   margin-bottom: 10px;
 }
 
-.card p {
+ .card p {
   font-size: 0.9rem;
-  line-height: 1.4;
-}
+} 
 
 .profile-pic {
   width: 90px;
-  height: 90px;
-  border-radius: 8px;
+}
+
+.card a {
+  color: #0077b5; 
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
 }

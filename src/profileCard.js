@@ -1,4 +1,4 @@
-import "./profileCard.css";
+import "./ProfileCard.css";
 
 function ProfileCard(props) {
     return(
@@ -7,6 +7,10 @@ function ProfileCard(props) {
             <h2>{props.name}</h2>
             <h4>{props.title}</h4>
             <p>{props.bio}</p>
+            <h5>Connect with us:</h5>
+            <a href={props.linkedin} target="_blank" rel="noopener noreferrer">
+        LinkedIn Profile
+      </a>
         </div>
     );
 }
